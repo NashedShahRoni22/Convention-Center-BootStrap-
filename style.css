@@ -70,3 +70,11 @@
         font-weight: 700;
     }
     
+    .footer-section{
+        background-color: #0B0D17;
+        color: #A6A6A6;
+    }
+    .footer-img img{
+        height: 150px;
+        width: 150px;
+    }
