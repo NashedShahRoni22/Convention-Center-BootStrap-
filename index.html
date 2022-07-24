@@ -14,7 +14,7 @@
   <body>
     <header>
         <section id="navbar-section">
-            <nav class="navbar navbar-expand-md py-4">
+            <nav class="navbar navbar-expand-md fixed-top py-3">
                 <div class="container">
                   <a class="navbar-brand" href="#">Abacus Convention Center</a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,7 +41,7 @@
         </section>
     </header>
     <main>
-        <section class="carousel-section">
+        <section class="carousel-section pt-5 mt-4">
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
                 <div class="carousel-indicators">
                   <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -102,10 +102,18 @@
                 <div class="left-side">
                     <img src="./img/poster.jpg" alt="" class="img-fluid rounded">
                 </div>
-                <div class="right-side my-auto">
-                    <h1>Every moment is Precious </h1>
-                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-                    <a href="" class="btn btn-primary text-light">Explore Our Album <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                <div class="right-side my-auto position-relative">
+                  <div class="floating-content  p-3 position-absolute end-0 top-0 shadow rounded">
+                    <i class="fa-solid fa-gift"></i> 
+                    20% off on next booking
+                    <span><button type="button" class="btn-close" aria-label="Close"></button></span>
+                  </div>
+                    <div class="right-side-content">
+                      <h1>Every moment is Precious </h1>
+                      <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                      <a href="" class="btn btn-primary text-light">Explore Our Album <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                    </div>
+                    
                 </div>
             </div>
         </section>
@@ -216,7 +224,7 @@
                   <div class="accordion-item">
                     <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
                       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-                        Accordion Item Two
+                        How early do we need to start planning an event
                       </button>
                     </h2>
                     <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
@@ -228,7 +236,7 @@
                   <div class="accordion-item">
                     <h2 class="accordion-header" id="panelsStayOpen-headingThree">
                       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                        Accordion Item Three
+                        What is your refund and cancellation policy?
                       </button>
                     </h2>
                     <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
@@ -240,7 +248,7 @@
                   <div class="accordion-item">
                     <h2 class="accordion-header" id="panelsStayOpen-headingFour">
                       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
-                        Accordion Item Four
+                        How do you keep budgets on track?
                       </button>
                     </h2>
                     <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
